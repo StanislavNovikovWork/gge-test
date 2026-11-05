@@ -1,0 +1,51 @@
+.container {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #f5f5f5;
+}
+
+.body {
+  position: relative;
+}
+
+.row {
+  display: grid;
+  align-items: center;
+  width: 100%;
+}
+
+.body .row {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #eee;
+}
+
+.headerCell,
+.cell {
+  padding: 0 12px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.headerCell {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+.empty {
+  padding: 32px 12px;
+  text-align: center;
+  color: #777;
+}

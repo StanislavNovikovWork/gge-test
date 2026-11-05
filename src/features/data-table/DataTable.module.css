@@ -1,0 +1,11 @@
+.root {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 0;
+}
+
+.rowsCount {
+  margin: 0;
+}
